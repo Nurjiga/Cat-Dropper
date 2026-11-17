@@ -46,6 +46,8 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI bestScoreText;
+    [Tooltip("Подпись над рекордом: \"Best score\" или \"New best!\"")]
+    public TextMeshProUGUI bestLabelText;
     [Tooltip("Задержка между проигрышем и экраном Game Over (сек)")]
     public float gameOverDelay = 1.8f;
     public Color culpritColor = new Color(1f, 0.35f, 0.35f, 1f);
@@ -385,8 +387,9 @@ public class GameManager : MonoBehaviour
         if (mainGameUI != null) mainGameUI.SetActive(false);
 
         if (finalScoreText != null) finalScoreText.text = score.ToString();
-        if (bestScoreText != null)
-            bestScoreText.text = newRecord ? "<color=#FFD54A>New best!</color>" : "Best: " + SaveData.BestScore;
+        // как в макете: подпись "Best score" и под ней число (при новом рекорде подпись "New best!")
+        if (bestLabelText != null) bestLabelText.text = newRecord ? "New best!" : "Best score";
+        if (bestScoreText != null) bestScoreText.text = SaveData.BestScore.ToString();
 
         if (gameOverPanel != null) gameOverPanel.SetActive(true);
 

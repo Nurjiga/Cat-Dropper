@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 50784cab85dde4bf088e1621485b6f66
+guid: c0820e0a577f14bb3bde20f544e05ad6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7084024927972136633
-    second: instruc_0
+      213: -4369914213547650377
+    second: btn_primary_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,13 +46,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 64, y: 64, z: 64, w: 64}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -77,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: instruc_0
+      name: btn_primary_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 897
-        height: 1008
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b69ac3a3238f4260800000000000000
-      internalID: 7084024927972136633
+      spriteID: 7b2df82fc22fa53c0800000000000000
+      internalID: -4369914213547650377
       vertices: []
       indices: 
       edges: []
@@ -153,7 +153,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -163,7 +163,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      instruc_0: 7084024927972136633
+      btn_primary_0: -4369914213547650377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
